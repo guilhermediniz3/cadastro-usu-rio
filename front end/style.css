@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color:aliceblue;
+    margin: 40px 0 40px 0;
+}
+body{
+    background-color: rgb(22,6,6);
+}
+
+
+.box,form {
+/*   gap e para dar espaçamento entre os campos do formulario          */
+    gap: 20px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+input{
+
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    padding:0 15px 0 15px;
+
+}
+
+button{
+    width: 150 px;
+    height: 30px;
+}
